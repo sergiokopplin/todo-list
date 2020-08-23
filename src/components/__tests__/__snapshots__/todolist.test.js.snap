@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TodoList /> renders component 1`] = `
+<div>
+  <ul
+    class="sc-fznKkj jfzNCm todo-list"
+  />
+</div>
+`;

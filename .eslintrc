@@ -1,0 +1,24 @@
+{
+  "extends": ["react-app", "eslint-config-prettier"],
+  "plugins": ["eslint-plugin-import-helpers", "prettier"],
+  "globals": {
+    "renderWithProviders": "readonly"
+  },
+  "rules": {
+    "prettier/prettier": "error",
+    "import-helpers/order-imports": [
+      "warn",
+      {
+        "newlinesBetween": "always",
+        "groups": [
+          "/^(react)/",
+          "/^(components)/",
+          "/^(helpers)/",
+          "/^(redux)/",
+          "module",
+          ["parent", "sibling", "index"]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TodoItem /> renders component 1`] = `
+<div>
+  <li
+    class="sc-AxheI dqpnyr completed"
+  >
+    <div
+      class="view"
+    >
+      <input
+        checked=""
+        class="sc-AxhUy djJMN toggle"
+        type="checkbox"
+      />
+      <label>
+        text
+      </label>
+      <button
+        class="sc-AxgMl hEhwGO destroy"
+      />
+    </div>
+    <input
+      class="sc-AxiKw sc-AxhCb icRCPU edit"
+      value=""
+    />
+  </li>
+</div>
+`;

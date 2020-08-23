@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Types should return properly 1`] = `"ADD_TODO"`;
+
+exports[`Types should return properly 2`] = `"DELETE_TODO"`;
+
+exports[`Types should return properly 3`] = `"TOGGLE_TODO"`;
+
+exports[`Types should return properly 4`] = `"EDIT_TODO"`;
+
+exports[`Types should return properly 5`] = `"COMPLETE_ALL"`;
+
+exports[`Types should return properly 6`] = `"CLEAR_COMPLETED"`;
+
+exports[`Types should return properly 7`] = `"show_all"`;
+
+exports[`Types should return properly 8`] = `"show_completed"`;
+
+exports[`Types should return properly 9`] = `"show_active"`;
